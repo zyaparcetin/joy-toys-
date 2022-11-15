@@ -1,5 +1,5 @@
 class User {
-  constructor(name,age) {
+  constructor(name, age) {
     this.name = name
     this.age = age
     this.likes = []
@@ -23,7 +23,7 @@ class User {
 
   review(product) {
     this.reviews.push(product)
-    product.reviewedBy.push(this)
+   
   }
 }
 
